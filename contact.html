@@ -7,9 +7,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script src="cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
-    <script src="maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></script>
-    <script src="maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+ 
     <head>
       <!-- <div class="navbar"> -->
         <!-- <a class="active" href="#"><i class="home"></i> Home</a>
@@ -21,67 +19,44 @@
 
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg">
           <a class="navbar-brand" style="color: white; font-weight: 600;">Juffrouw Krul</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                      <a class="nav-link"  href=index.html>Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="fotos.html">Foto's</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                  </ul>
-                  <span class="navbar-text">
-                    Email: <a style="color: lightgrey; text-decoration: none" href="mailto:sasvanhaaren1969@gmail.com">sasvanhaaren1969@gmail.com</a>
-                  </span>
-                  <span style="color: transparent">...</span>
-                  <span class="navbar-text">
-                    Mobiel: <a style="color: lightgrey; text-decoration: none" href="tel:0636036525">0636036525</a>
-                  </span>
-            </div>
-          </nav>
-
-        <!-- <nav class="navbar fixed-top navbar-expand-lg navbar bg">
-          <a class="navbar-brand" style="color: white; font-weight: 600;">Juffrouw Krul</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
           <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
+              <li class="nav-item">
                 <a class="nav-link" href=index.html>Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="fotos.html">Foto's</a>
               </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
             </ul>
             <span class="navbar-text">
               Email: <a style="color: lightgrey; text-decoration: none" href="mailto:sasvanhaaren1969@gmail.com">sasvanhaaren1969@gmail.com</a>
             </span>
+            <span style="color: transparent">...</span>
+            <span class="navbar-text">
+                Mobiel: <a style="color: lightgrey; text-decoration: none" href="tel:0636036525">0636036525</a>
+              </span>
           </div>
-        </nav> -->
-
-        
+        </nav>
 
     </head>
 
       <br><br>
 
         <body>
-            
-            
 
           <!-- plaatjes -->
           <div class="plaatjes">
             <div class="carousel slide carousel-fade" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <span class="superSize"><img class="d-block w-100" src="images/juffrouwkrulLogoSmall.jpg" alt="juffrouwkrulLogoSmall"></span>
+                  <!-- <img class="d-block w-100" src="images/juffrouwkrulLogo.jpg" alt="bos 1"> -->
+                  <span class="superSize"><img class="d-block w-100" src="images/juffrouwkrulLogoSmall.jpg" alt="bos 1"></span>
                   <div class="carousel-caption d-none d-md-block">
                     <h5 class="display-4"></h5>
                   </div>
@@ -92,51 +67,60 @@
 
 
             <div class="jumbotron container" id="container">
-              <!-- <div class="container"> -->
                 <div class="row">
-                  <div class="col">
-                    <br><br><br><br><br>
-                    <h1 id="headTextH1" class="display-4">
-                      	Hallo!
-                      </h1>
-                      <p id="headTextP" class="lead">
-                        Mijn naam is Juffrouwkrul,<br>
-                        Ik regel van alle soorten cetering en kan op feestjes staan met mijn blauwe tuktuk.
-                      </p>
-                    </div>
                     <div class="col">
-                      <div class="room"></div>
-                      <img id="ik" class="img-responsive" src="images/juffrouwkrul.jpg">
-                    </div>
+                        <h2>Contact formlulier</h2>
+                        <hr>
+                            <form>
+                                    <div class="form-row">
+                                      <div class="form-group col-md-6">
+                                        <label for="inputEmail4">Email</label>
+                                        <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                                      </div>
+                                      <div class="form-group col-md-6">
+                                        <label for="inputPassword4">Password</label>
+                                        <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                                      </div>
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="inputAddress">Address</label>
+                                      <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                    </div>
+                                    <div class="form-group">
+                                      <label for="inputAddress2">Address 2</label>
+                                      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                    </div>
+                                    <div class="form-row">
+                                      <div class="form-group col-md-6">
+                                        <label for="inputCity">City</label>
+                                        <input type="text" class="form-control" id="inputCity">
+                                      </div>
+                                      <div class="form-group col-md-4">
+                                        <label for="inputState">State</label>
+                                        <select id="inputState" class="form-control">
+                                          <option selected>Choose...</option>
+                                          <option>...</option>
+                                        </select>
+                                      </div>
+                                      <div class="form-group col-md-2">
+                                        <label for="inputZip">Zip</label>
+                                        <input type="text" class="form-control" id="inputZip">
+                                      </div>
+                                    </div>
+                                    <div class="form-group">
+                                      <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                                        <label class="form-check-label" for="gridCheck">
+                                          Check me out
+                                        </label>
+                                      </div>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary">Sign in</button>
+                                  </form>
                   </div>
-                </div>
+                </div> 
+                
               </div>
-
-
-
-              <div class="jumbotron container" id="container" style="text-align: center">
-                  <!-- <div class="container"> -->
-                    <div class="row">
-                      <div class="col">
-                        <br><br><br><br>
-                        <h1 id="headTextH1" class="display-4">
-                            Evenementen
-                          </h1>
-                          <p id="headTextP" class="lead">
-                            Hieronder staan alle evenementen die er de komende tijd gaan gebeuren.
-                          </p>
-                          <br><br>
-                          <hr>
-                          <br><br>
-                          <h1 style="font-weight: 200;">De dijk</h1>
-                          <p class="lead">Elke zondag in de zomer en met goed weer zal ik op de dijk in Beuningen staan en 
-                            zal ik er staan met koffie, taart en iets fris.</p>
-                        </div>
-                        
-                      </div>
-                    </div>
-                  </div>
-              
 
           </body>
           
@@ -170,7 +154,7 @@
                       <a class="dark-grey-text" href="#!"></a>
                     </p>
                     <p>
-                      <a class="dark-grey-text"></a>
+                      <a class="dark-grey-text" href=""></a>
                     </p>
 
                   </div>
@@ -180,13 +164,13 @@
                       <h6 class="text-uppercase font-weight-bold">Contact</h6>
                         <hr class="teal accent-3 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
                         <p>
-                          <i class="mr-3"></i>Wilgenkamp 5 Beuningen</p>
-                        <p>
-                          <i class="mr-3"></i> sasvanhaaren1969@gmail.com</p>
-                        <p>
-                          <i class="mr-3"></i>  06 36036525</p>
-                        <!-- <p>
-                          <i class="mr-3"></i>  0481 371 333</p> -->
+                            <i class="mr-3"></i>Wilgenkamp 5 Beuningen</p>
+                          <p>
+                            <i class="mr-3"></i> sasvanhaaren1969@gmail.com</p>
+                          <p>
+                            <i class="mr-3"></i>  06 36036525</p>
+                          <!-- <p>
+                            <i class="mr-3"></i>  0481 371 333</p> -->
                       </div>
                     </div>
                   </div>
