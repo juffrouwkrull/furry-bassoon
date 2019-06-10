@@ -87,6 +87,10 @@ li{
   }
 }
 
+#footer{
+  color: white!important;
+}
+
 /* @media screen and (max-width: 1199px) {
   .normalSize{
     display: none!important;
